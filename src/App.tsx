@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="page-container">
       <header className="header">
-        <h1>Palm Beach</h1>
+        <h1><img src="img/palmbeach.png" alt="Palm Beach Logo" width="600" height="200"/></h1>
         <div className="language-selector">
           <select
             value={language}
