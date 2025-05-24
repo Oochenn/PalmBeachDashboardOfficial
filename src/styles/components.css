@@ -1,0 +1,27 @@
+@layer components {
+  .menu-card {
+    @apply bg-white/5 backdrop-blur-xl rounded-xl p-6 border border-white/20 shadow-lg;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-title {
+    @apply text-xl text-white mb-4 pb-2 border-b border-white/20 hover:bg-white/20 transition cursor-pointer sticky top-0 bg-inherit;
+  }
+  
+  .language-select {
+    @apply appearance-none bg-transparent text-white px-4 py-2 rounded-xl border border-white/20 shadow-lg cursor-pointer hover:bg-white/20 transition [&>option]:bg-transparent [&>option]:text-white;
+  }
+
+  .menu-card::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .menu-card::-webkit-scrollbar-track {
+    @apply bg-white/5 rounded-full;
+  }
+
+  .menu-card::-webkit-scrollbar-thumb {
+    @apply bg-white/20 rounded-full hover:bg-white/30 transition-colors;
+  }
+}

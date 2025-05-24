@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Abuget';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  @apply min-h-screen;
+  background: linear-gradient(to bottom right, #ff1b6b, #45caff);
+  background-attachment: fixed;
+}
+
+body::before {
+  content: '';
+  @apply fixed inset-0 backdrop-blur-3xl -z-10;
+  background: linear-gradient(to bottom right, #ff1b6b, #45caff);
+}
+
+h1,
+h2 {
+  font-family: 'Abuget', sans-serif !important;
+  @apply text-6xl text-white text-center;
+}
