@@ -6,7 +6,7 @@
   }
   
   .menu-title {
-    @apply text-xl text-white mb-4 pb-2 border-b border-white/20 hover:bg-white/20 transition cursor-pointer sticky top-0 bg-inherit;
+    @apply text-xl text-white mb-4 pb-2 border-b border-white/20 ;
   }
   
   .language-select {
