@@ -33,7 +33,7 @@ function App() {
                   {t.items.menu}: {t.items.single} 9€ Double 11€ Triple 12€
                 </p>
                 <p className="text-sm text-white-300">
-                  {t.items.single}: {t.items.single} 6,5€ Double 7€ Triple 8€
+                  {t.items.single}: {t.items.single} 6.50€ Double 7€ Triple 8€
                 </p>
               </div>
             </div>
@@ -54,8 +54,8 @@ function App() {
             <div className="flex justify-between">
               <p>Snowfall</p>
               <div className="text-right">
-                <p className="text-sm text-cyan-300">{t.items.menu}: 13,5€</p>
-                <p className="text-sm text-white-300">{t.items.single}: 9,5€</p>
+                <p className="text-sm text-cyan-300">{t.items.menu}: 13.50€</p>
+                <p className="text-sm text-white-300">{t.items.single}: 9.50€</p>
               </div>
             </div>
             <div className="flex justify-between">
@@ -68,8 +68,8 @@ function App() {
             <div className="flex justify-between">
               <p>Vatos Locos</p>
               <div className="text-right">
-                <p className="text-sm text-cyan-300">{t.items.menu}: 11,99€</p>
-                <p className="text-sm text-white-300">{t.items.single}: 8,99€</p>
+                <p className="text-sm text-cyan-300">{t.items.menu}: 12€</p>
+                <p className="text-sm text-white-300">{t.items.single}: 9€</p>
               </div>
             </div>
             <div className="flex justify-between">
@@ -222,15 +222,15 @@ function App() {
           <div className="text-white/90 space-y-2">
             <div className="flex justify-between">
               <p>Hamburger</p>
-              <p className="text-sm text-cyan-300">7,5€</p>
+              <p className="text-sm text-cyan-300">7.50€</p>
             </div>
             <div className="flex justify-between">
               <p>Hot Dog</p>
-              <p className="text-sm text-cyan-300">7,5€</p>
+              <p className="text-sm text-cyan-300">7.50€</p>
             </div>
             <div className="flex justify-between">
               <p>Chicken</p>
-              <p className="text-sm text-cyan-300">7,5€</p>
+              <p className="text-sm text-cyan-300">7.50€</p>
             </div>
           </div>
         </div>
@@ -251,7 +251,7 @@ function App() {
             </div>
             <div className="flex justify-between">
               <p>Cheddar Fries</p>
-              <p className="text-sm text-cyan-300">3,5€</p>
+              <p className="text-sm text-cyan-300">3.50€</p>
             </div>
             <div className="flex justify-between">
               <p>Cheddar Bacon Fries</p>
@@ -271,11 +271,11 @@ function App() {
             </div>
             <div className="flex justify-between">
               <p>Fries</p>
-              <p className="text-sm text-cyan-300">2,5€</p>
+              <p className="text-sm text-cyan-300">2.50€</p>
             </div>
             <div className="flex justify-between">
               <p>Mac & Cheese</p>
-              <p className="text-sm text-cyan-300">3,5€</p>
+              <p className="text-sm text-cyan-300">3.50€</p>
             </div>
           </div>
         </div>
@@ -288,7 +288,7 @@ function App() {
                 Andalouse, Samouraï, Cocktail, Brazil, Sriracha, Barbecue, US
                 Mustard, Toscane, Algérienne, Harissa Burger
               </p>
-              <p className="text-sm text-cyan-300">0,5€</p>
+              <p className="text-sm text-cyan-300">0.50€</p>
             </div>
           </div>
         </div>
@@ -297,19 +297,19 @@ function App() {
           <div className="text-white/90 space-y-2">
             <div className="flex justify-between">
               <p>Fried Onions</p>
-              <p className="text-sm text-cyan-300">0,5€</p>
+              <p className="text-sm text-cyan-300">0.50€</p>
             </div>
             <div className="flex justify-between">
               <p>Caramelized Onions</p>
-              <p className="text-sm text-cyan-300">0,5€</p>
+              <p className="text-sm text-cyan-300">0.50€</p>
             </div>
             <div className="flex justify-between">
               <p>Raw Vegetables</p>
-              <p className="text-sm text-cyan-300">0,5€</p>
+              <p className="text-sm text-cyan-300">0.50€</p>
             </div>
             <div className="flex justify-between">
               <p>Cheese</p>
-              <p className="text-sm text-cyan-300">0,5€</p>
+              <p className="text-sm text-cyan-300">0.50€</p>
             </div>
             <div className="flex justify-between">
               <p>Pure Beef Patty</p>
@@ -334,7 +334,7 @@ function App() {
             </div>
             <div className="flex justify-between">
               <p>USA Special & Redbull</p>
-              <p className="text-sm text-cyan-300">2,5€</p>
+              <p className="text-sm text-cyan-300">2.50€</p>
             </div>
             <div className="flex justify-between">
               <p>Capri-sun</p>
